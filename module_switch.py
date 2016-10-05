@@ -15,8 +15,8 @@ class Switch(object):
         handler = None
         if domain == "病症":
             handler = medicine.MedicalListener(self.console)
-        #if domain == "住宿":
-        #    handler = hotel.HotelListener(self.console)
+        if domain == "住宿":
+            handler = hotel.HotelListener(self.console)
         else:
             pass
         """
