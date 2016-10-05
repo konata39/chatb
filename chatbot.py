@@ -56,6 +56,7 @@ class Chatbot(object):
 
         self.rule_match(sentence) # find the most similar domain with speech.
         handler = self.get_task_handler()
+        print(self.speech, self.speech_domain, target)
         try:
             status,response = handler.get_response(self.speech, self.speech_domain, target)
         except AttributeError:

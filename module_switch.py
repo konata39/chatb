@@ -3,7 +3,7 @@ This class is for building and return a task handler
 based on the task's domain.
 """
 import medicine.medicine as medicine
-#import hotel.hotel as hotel
+import hotel.hotel as hotel
 
 class Switch(object):
 
