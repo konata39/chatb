@@ -51,7 +51,31 @@ class HotelListener(object):
         依據現有的病症資訊，回傳可能疾病或要詢問的症狀
         """
 
-        return [None, self.console.get_response(domain)]
+        history = []
+        if self.look_up(domain):
+        # 判斷是否進入醫生任務
+
+            # 從當前的 sentence 抽取病症信息
+            keywords = self.console.word_segment(sentence)
+            self.hard_extract(keywords)
+            self.reason(keywords)
+
+            # 與先前已知的症狀合併
+            for k,v in self.hotel_dic.items():
+                if v:
+                    history.append(k)
+
+            if len(history) >= 3:
+                #進入醫生診斷模組 TODO
+                doctor = diagnose.Doctor(False)
+                doctor.one_pass_diagnose()
+                return [None, "馬上為您尋找空位，請稍等一下"]
+
+            else:
+                #仍須繼續問診，把目前狀態先回覆給chatbot
+                return [json.dumps(history), self._response[random.randrange(0,6)]]
+        else:
+            return [None, self.console.get_response(domain)]
 
 
     def hard_extract(self, keywords):
