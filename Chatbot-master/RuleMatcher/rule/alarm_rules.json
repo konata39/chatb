@@ -1,0 +1,37 @@
+[
+  	{
+        "domain": "旅館",
+        "response": [
+			"好的，請問要訂哪間旅館呢？"
+        ],
+        "concepts": [
+            "旅館",
+			"旅店"
+        ],
+        "children": []
+
+  	},
+  	{
+      "domain": "飯店",
+      "response": [
+        "好的，請問要訂哪間飯店呢？"
+      ],
+      "concepts": [
+          "飯店"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "民宿",
+      "response": [
+        "好的，請問要訂哪間民宿呢？"
+      ],
+      "concepts": [
+          "民宿"
+      ],
+      "children": [
+	  ]
+  	}
+	
+]

@@ -1,0 +1,124 @@
+[
+  	{
+        "domain": "單人房",
+        "response": [
+        ],
+        "concepts": [
+            "單人房"
+        ],
+        "children": []
+
+  	},
+  	{
+      "domain": "雙人房",
+      "response": [
+      ],
+      "concepts": [
+          "雙人房"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "網路",
+      "response": [
+      ],
+      "concepts": [
+          "網路",
+		  "無線網路"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "獨立衛浴",
+      "response": [
+      ],
+      "concepts": [
+          "獨立衛浴"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "旅館",
+      "response": [
+      ],
+      "concepts": [
+          "旅館"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "飯店",
+      "response": [
+      ],
+      "concepts": [
+          "飯店"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "酒店",
+      "response": [
+      ],
+      "concepts": [
+          "酒店"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "民宿",
+      "response": [
+      ],
+      "concepts": [
+          "民宿"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "青年旅店",
+      "response": [
+      ],
+      "concepts": [
+          "青年旅店"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "背包客",
+      "response": [
+      ],
+      "concepts": [
+          "背包客"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "單人床",
+      "response": [
+      ],
+      "concepts": [
+          "單人床"
+      ],
+      "children": [
+	  ]
+  	},
+	{
+      "domain": "雙人床",
+      "response": [
+      ],
+      "concepts": [
+          "雙人床"
+      ],
+      "children": [
+	  ]
+  	}
+	
+]
